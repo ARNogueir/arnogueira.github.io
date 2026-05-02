@@ -77,6 +77,14 @@
         .theme-toggle {
             width: 44px; height: 44px; display: grid; place-items: center; border-radius: 14px;
             border: 1px solid var(--color-border); background: var(--color-surface);
+            cursor: pointer; transition: background-color 0.2s ease;
+        }
+        .theme-toggle:hover {
+            background: var(--color-surface-2);
+        }
+        .theme-toggle svg {
+            stroke: var(--color-text);
+            transition: stroke 0.2s ease;
         }
         .hero {
             padding: clamp(4rem, 8vw, 8rem) 0 clamp(3rem, 7vw, 6rem);
