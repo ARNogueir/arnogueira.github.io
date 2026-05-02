@@ -1,0 +1,15 @@
+# Dependências
+node_modules/
+.DS_Store
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Compilação
+dist/
+build/
+
